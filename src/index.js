@@ -2,12 +2,12 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-import Products from "./basic/components/Products";
+import TailwindComponent from "./TailwindComponent";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Products />
+    <TailwindComponent />
   </React.StrictMode>
 );
 
